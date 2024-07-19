@@ -16,17 +16,27 @@ st.markdown("""
 
 
 
-st.markdown("[![Click me](app/static/welcome.png)](https://streamlit.io)")
+st.markdown("[![Click me](app/static/images/welcome.png)](https://streamlit.io)")
+st.markdown("""
+<table>
+    <tr>
+        <td>제목</td>
+    </tr>
+    <tr>
+        <td>바람과 함께 사라지다.</td>
+    </tr>
+</table>
+""", unsafe_allow_html=True)
 
-
+st.markdown("[![Click me](app/static/images/welcome.png)](https://streamlit.io)")
 
 
 #import streamlit as st
 #
 #
-#if "{{ cookiecutter.include_src_directory }}" == 'y':
+#if "y" == 'y':
 #    from src.components import sidebar
 #    sidebar.show_sidebar()
 #
-#st.title('{{ cookiecutter.project_slug }}')
-#st.write('{{ cookiecutter.project_description }}')
+#st.title('streamlit_apps')
+#st.write('This is my awesome streamlit app.')
