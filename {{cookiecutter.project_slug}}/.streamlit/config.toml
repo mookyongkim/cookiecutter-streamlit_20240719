@@ -1,1 +1,6 @@
 # Streamlit Settings
+[client]
+showSidebarNavigation = false
+
+[server]
+enableStaticServing = true
