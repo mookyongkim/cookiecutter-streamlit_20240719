@@ -1,4 +1,5 @@
 import streamlit as st
+import navbar
 
 current_page = "Page 1"
 st.title("Page 1")
