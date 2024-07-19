@@ -3,9 +3,9 @@ from streamlit_option_menu import option_menu
 
 # Define the pages and their file paths
 pages = {"Home":"app.py",
-         "상황별 대화 만들기":"pages/Create contextual conversations.py",
-         "RAG 챗봇":"pages/EmbedChain.py",
-         "등산 챗봇":"pages/Mountain_Chat_Bot.py"
+         "Page 1":"pages/Page_1.py",
+         "Page 2":"pages/Page_2.py",
+         "Page 3":"pages/Page_3.py"
 }
 
 # Create a list of the page names
